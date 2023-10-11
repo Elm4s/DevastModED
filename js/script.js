@@ -1,4 +1,3 @@
-// Spacebar = on/off aim
 
 function SendWSmsg(message) {
     if (window.ws != null && window.ws.readyState == WebSocket.OPEN) window.ws.send(JSON.stringify(message));
