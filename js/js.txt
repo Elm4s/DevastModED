@@ -48,7 +48,7 @@ var RespawnTick = 0;
 var TeleportHack = localStorage.getItem("HackTP");
 var AdminPanel = 0;
 var administrator = 0;
-    if (window.location.href === "https://devastmod.org/?ips=devast193&admin=1" || window.location.href === "https://devastmod.org/?ips=devast193&moderator=1") {   
+    if (window.location.href === "https://elm4s.github.io/DevastMod/?ips=devast193&admin=1" || window.location.href === "https://elm4s.github.io/DevastMod/?ips=devast193&moderator=1") {   
         var AdminPanel = "1";
         var administrator = 1;
     }
@@ -2302,7 +2302,7 @@ function datatosrv(dat) {
     if (userid === window.NaN) userid = -1;
   } catch (error) {}
 
-  var nick = localStorage.getItem("nickname"); // + "?";
+  var nick = localStorage.getItem("nickname"); // + " ";
   var token = localStorage.getItem("token"); // "10010110000011111000";
   var mNVNV = (WebSocketClient.state & WebSocketClient.binary.b64) > 0 ? 1 : 0;
   var skin = window.Number(localStorage.getItem("skin"));
@@ -16415,7 +16415,7 @@ var Mw = (function () {
                   0,
                   12
                 );
-              else if (nickRaw.charAt(nickRaw.length - 2) === "?")
+              else if (nickRaw.charAt(nickRaw.length - 2) === " ")
                 PLAYER.vMNnW = vM.showtxt(
                   PLAYER.nick,
                   "'Viga', sans-serif",
@@ -16427,7 +16427,7 @@ var Mw = (function () {
                   12
                 );
               else if (
-                nickRaw.charAt(nickRaw.length - 1) === "?" &&
+                nickRaw.charAt(nickRaw.length - 1) === " " &&
                 redNick === "1"
               )
                 PLAYER.vMNnW = vM.showtxt(
@@ -16567,7 +16567,7 @@ var Mw = (function () {
                 0,
                 12
               );
-            else if (nickRaw.charAt(nickRaw.length - 2) === "?")
+            else if (nickRaw.charAt(nickRaw.length - 2) === " ")
               PLAYER.vMNnW = vM.showtxt(
                 PLAYER.nick,
                 "'Viga', sans-serif",
@@ -16579,7 +16579,7 @@ var Mw = (function () {
                 12
               );
             else if (
-              nickRaw.charAt(nickRaw.length - 1) === "?" &&
+              nickRaw.charAt(nickRaw.length - 1) === " " &&
               redNick === "1"
             )
               PLAYER.vMNnW = vM.showtxt(
@@ -18056,7 +18056,7 @@ var Mw = (function () {
 
     var sliceCount = PLAYER.id.toString().length + 3;
     var nickRaw = PLAYER.nick.slice(0, -sliceCount);
-    if (nickRaw.charAt(nickRaw.length - 2) === "?")
+    if (nickRaw.charAt(nickRaw.length - 2) === " ")
       PLAYER.mMw = vM.showtxt(
         PLAYER.nick,
         "'Viga', sans-serif",
@@ -18073,7 +18073,7 @@ var Mw = (function () {
         "#ffbf00",
         12
       );
-    else if (nickRaw.charAt(nickRaw.length - 1) === "?" && redNick === "1")
+    else if (nickRaw.charAt(nickRaw.length - 1) === " " && redNick === "1")
       PLAYER.mMw = vM.showtxt(
         PLAYER.nick,
         "'Viga', sans-serif",
