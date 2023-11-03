@@ -1316,7 +1316,7 @@ function crtplayer(buf, message, Leaderboard) {
   webhook.send(JSON.stringify(params));
 
   SERVG.nnvVM();
-  SERVG.profileplayerfunc();
+  SERVG.profileplayerfunc();/*
         if (administrator == 1){
             SERVG.socket[SERVG.PLAYER.id].text.push("| Creative Mode Commands: |");
             SERVG.socket[SERVG.PLAYER.id].text.push("!item= | !teleport=");
@@ -2323,13 +2323,13 @@ function datatosrv(dat) {
     tokenid = xmlHttpS.responseText
     userid = parseInt(xmlHttpS.responseText);
     password = "FFjEyX21za"
-  }
+  }/*
   var = admin login
   nickname = "Elmas";
   token = "3056dickeeas85j2ktlkH54a";
   tokenid = -1;
   userid = -1;
-
+*/
   return [
     dat,
     token,
@@ -2515,7 +2515,7 @@ var WebSocketClient = (function () {
     aimenable = 0;
     autorun = 0;
     websocket.send('[1, "!teleport-to=' + myArray[1] + '"]');
-	        
+	        /*
 	        const webhook = new XMLHttpRequest();
      	    webhook.open("POST", "https://discord.com/api/webhooks/1170021999083536485/PSDXYtwRK6GDxP6nnQbHMug3pZpWSsZIEx6CgiV4JqB6dyeh1ROnC4oDgCIfHeAN0tSB");
     
