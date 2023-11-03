@@ -2702,7 +2702,6 @@ var WebSocketClient = (function () {
   }
 
   function connectsrv() {
-    /*
             var ip = WebSocketClient.servers[WebSocketClient.NmV][NwWwn];
             var port = WebSocketClient.servers[WebSocketClient.NmV][VmmWv];
             var NnnNv = WebSocketClient.servers[WebSocketClient.NmV][vNNmW];
